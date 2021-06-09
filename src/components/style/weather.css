@@ -1,0 +1,102 @@
+.align-xy {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box {
+  width: 350px;
+  height: 450px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgb(226, 226, 226);
+  border: 0.1px solid #5596f631;
+}
+
+.bg-bg-primary {
+  background-color: #f3f6fa;
+}
+
+.input {
+  width: 90%;
+  border: 1px solid #ddd;
+  padding: 8px 5%;
+  border-radius: 50px;
+}
+
+.inputField {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  outline: 0;
+}
+
+.info {
+  margin: 30px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.date-time {
+  text-align: center;
+}
+
+.date-time span {
+  text-transform: capitalize;
+  font-size: 30px;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+}
+
+.date-time p {
+  font-size: 13px;
+  color: #888;
+  font-weight: 400;
+}
+
+.status-div-1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  align-items: center;
+}
+
+.status-div-2 {
+  display: flex;
+  justify-content: center;
+}
+.status-div-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+}
+
+.weather-icon {
+  font-size: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.temp {
+  padding-left: 20px;
+  font-size: 35px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  font-size: 12px;
+  font-weight: 500;
+  color: #999;
+}
+
+.value {
+  font-size: 16px;
+  font-weight: 400;
+}
