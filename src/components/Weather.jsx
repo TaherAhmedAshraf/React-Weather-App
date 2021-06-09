@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from "react";
 import "./style/weather.css";
 import { BsCloud as Cloud } from "react-icons/bs";
-import { IoRainyOutline as Rain } from "react-icons/io5";
-import { BiSun as Sun } from "react-icons/bi";
-import { RiMoonClearLine as ClearSky } from "react-icons/ri";
-import { WiNightAltSnowThunderstorm as Thunderstorm } from "react-icons/wi";
-import { IoSnow as Snow } from "react-icons/io5";
-import { RiMistLine as Mist } from "react-icons/ri";
+// import { IoRainyOutline as Rain } from "react-icons/io5";
+// import { BiSun as Sun } from "react-icons/bi";
+// import { RiMoonClearLine as ClearSky } from "react-icons/ri";
+// import { WiNightAltSnowThunderstorm as Thunderstorm } from "react-icons/wi";
+// import { IoSnow as Snow } from "react-icons/io5";
+// import { RiMistLine as Mist } from "react-icons/ri";
 // http://api.openweathermap.org/data/2.5/weather?q=brahmanbaria&appid=5e6ece0ef64bdaa65fb4ddcf417eb6ef
 export default function Weather() {
   const [search, setSearch] = useState("London");
